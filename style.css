@@ -1,0 +1,225 @@
+.flex_col
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex_row
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex_grow
+{
+    flex-grow: 1;
+}
+
+.flex_itm_centrado
+{
+    align-items: center;
+}
+
+html
+{
+    background-color: rgb(228, 228, 228);
+}
+
+body
+{
+    width: 1200px;
+    background-color: white;
+    margin: 0 40px 0 40px;
+    font-family: Helvetica, "Nimbus Sans L", "Liberation Sans", Arial, sans-serif;
+}
+
+.logo_rosa
+{
+    margin:20px 0 20px 20px;
+    color: rgb(240, 110, 132);
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.logo_azul
+{
+    margin: 20px 0 20px 0;
+    color: rgb(52, 129, 245);
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.telefono
+{
+    margin : 20px 20px 20px 0;
+    color: rgb(21, 21, 114);
+    font-size: x-large;
+    font-weight: bold;
+}
+
+ul
+{
+    margin: 20px 0 20px 0;
+    list-style: none;
+    padding: 0;
+}
+
+li
+{
+    margin: 0 1em 0 1em;
+    color: rgb(180, 180, 180);
+    font-size: small;
+}
+
+a
+{
+    text-decoration: none;
+    color: rgb(180, 180, 180);
+}
+
+.img_coche
+{
+    width: 600px;
+    height: 400px ;
+}
+
+.icono
+{
+    width: 40px;
+    height: 40px ;
+    padding: 1em;
+}
+
+.icono_texto
+{
+    color: rgb(180, 180, 180);
+    font-size: x-small;
+}
+
+.button_grande
+{
+    margin-top: 2em;
+    width:300px;
+    height: 35px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(240, 110, 132);
+    color: white;
+}
+
+.button
+{
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(240, 110, 132);
+    color: white;
+    height: 25px;
+    width: 80px;
+    margin: 0.5em 0 0.5em 0;
+}
+
+.button_llamar
+{
+    margin-right: 5px;
+    background-color: rgb(240, 110, 132) ;
+    color: white;
+    border-radius: 25px;
+    border: none;
+    height: 30px;
+}
+
+.button_chatear
+{
+    margin-left: 5px;
+    background-color:rgb(52, 129, 245) ;
+    color: white;
+    border-radius: 25px;
+    border: none;
+    height: 30px;
+}
+
+p
+{
+    margin: 0;
+    font-size: small;
+}
+
+h3
+{
+    font-weight: lighter;
+}
+
+.itali
+{
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.negrita
+{
+    font-weight: bold;
+}
+
+.border
+{
+    border: 1px gray solid;
+    padding: 0 1em 0 1em;
+
+}
+
+aside
+{
+    margin-right: 20px;
+}
+
+.aside_top
+{
+    background-color: rgb(21, 21, 114);
+    color: white;
+    border-radius: 25px 25px 0 0;
+    padding: 1em 1em 1em 1em;
+}
+
+.precio_color
+{
+    color:rgb(52, 129, 245) ;
+    
+}
+
+.precio
+{
+    color:rgb(52, 129, 245) ;
+    font-size: xx-large;
+    margin: 0;
+    font-weight: lighter;
+}
+
+.cache_car
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+footer
+{
+    background-color: rgb(21, 21, 114) ;
+    color: white;
+    border-radius: 25px 25px 0 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.footer_cabecera
+{
+    font-size: x-large;
+    font-weight: lighter;
+    padding: 1em 0 0.75em 0;
+}
+
+.footer_texto
+{
+    font-size: x-small;
+    font-weight: lighter;
+    padding: 2em 0 1em 0;
+}
